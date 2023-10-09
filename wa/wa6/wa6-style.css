@@ -1,0 +1,92 @@
+body {
+    margin: 5;
+    background-image: url(2019game.JPG);
+    background-color: #cccc ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+        background-size: cover;
+}
+
+html {
+font-family: 'Helvetica neue', Arial, 'sans serif';
+font-size: 10px;
+}
+
+.scoreboard {
+position: absolute;
+top: 20px; 
+left: 50px
+}
+
+.box1 { 
+width: 5em; 
+height: 5em; 
+margin: 5em auto; 
+border: .1em solid black;
+position: absolute;
+
+}
+.box1 img {
+max-width: 100%;
+}
+
+.box2 {
+width: 5em;
+height: 5em;
+margin: 5em auto; 
+background-color: #cfb87c;
+border: .1em solid black;
+position: absolute;
+left: 5em;
+}
+
+p {
+font-size: 40px; 
+text-align: center;
+line-height: 1px;
+}
+
+.box3 {
+width: 5em;
+height: 5em;
+margin: 5em auto; 
+position: absolute;
+left: 10em;
+}
+
+.box3 img {
+max-width: 100%;
+}
+
+.box4 {
+width: 5em;
+height: 5em;
+margin: 5em auto;
+background-color: #e41c38;
+border: .1em solid black;
+position: absolute;
+left: 15em
+}
+
+.fox {
+position: absolute;
+top: 10em;
+right: 10em;
+border: .2em black;
+}
+
+.date{
+background-color: black;
+color: white;
+border: .1em solid white;
+position: absolute;
+font-size: 8px;
+top: auto;
+width: 50em;
+}
+
+.fox img {
+max-width: 30em;
+max-height: 200em;
+}
