@@ -1,0 +1,68 @@
+@media screen and (min-width: 400px) {
+body {
+    display: flex;
+    flex-direction: column; 
+    background-color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {text-align: center}
+
+.intro {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thin medium;
+}
+
+.box1, .box4, .box7 {
+    background-color: #79A7D3;
+    border-color: black;
+    border-style: solid;  
+    border-width: thin medium; 
+}
+
+.box2, .box5, .box8 {
+    background-color: #8A307F;
+    border-color: black;
+    border-style: solid;  
+    border-width: thin medium; 
+}
+
+.box3, .box6, .box9 {
+    background-color: #6883BC;
+    border-color: black;
+    border-style: solid;  
+    border-width: thin medium; 
+}
+
+}
+
+@media screen and (max-width: 1500px) {
+    .intro {
+        background-color: white;
+        border-color: black;
+        border-style: solid;
+        border-width: thin medium;
+    }
+    
+    .box1, .box4, .box7 {
+        background-color: #79A7D3;
+        border-color: black;
+        border-style: solid;  
+        border-width: thin medium; 
+    }
+    
+    .box2, .box5, .box8 {
+        background-color: #8A307F;
+        border-color: black;
+        border-style: solid;  
+        border-width: thin medium; 
+    }
+    
+    .box3, .box6, .box9 {
+        background-color: #6883BC;
+        border-color: black;
+        border-style: solid;  
+        border-width: thin medium; 
+    }    
+}
