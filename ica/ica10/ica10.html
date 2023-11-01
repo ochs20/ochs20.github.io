@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Class 10 Assignment</title>
+</head>
+
+
+<body>
+    <button id="Button">Click Here!</button>
+    <p id="press">Click Here Too!</p>
+
+    <script>
+
+        let button = document.getElementById("Button");
+        let paragraph = document.getElementById("press");
+
+        button.addEventListener("click", function() {
+            alert("You Rock!");
+        });
+
+        paragraph.addEventListener("click", function() {
+            if (paragraph.innerHTML === "Click Here Too!") {
+                paragraph.innerHTML = "Goog Job!";
+            } else {
+                paragraph.innerHTML = "Click Here Too!";
+            }
+        });
+    </script>
+</body>
+</html>
