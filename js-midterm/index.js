@@ -37,6 +37,6 @@ submitButton.addEventListener("click", () => {
   if (submittedNumber === businessNumber) {
     alert("Slay! You've entered the number for the best school ever, the Leeds School of Business!");
   } else {
-    alert("Sorry! That's wrong! Try again!");
+    alert("Sorry, try again! Here's a hint: It's the front desk number to Anthony's least favorite major!");
   }
 });

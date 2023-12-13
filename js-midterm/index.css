@@ -10,6 +10,7 @@ body {
   height: 100vh;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: #e9d3ff;
@@ -22,7 +23,14 @@ body {
   justify-content: center;
  
 }
-
+.parent {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -200px;
+}
 .wrapper {
   height: 80px;
   min-width: 80px;
